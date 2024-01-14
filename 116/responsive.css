@@ -1,0 +1,60 @@
+/* Responsive Design and the Breake points
+goog practices: add at least two media quires, one for the tablet and one for the phone 
+following the microsoft documentaion 
+
+phone or small screens */
+
+@media(max-width:640px) {
+    /*your style here}*/
+   h1 { font-size: 1rem;}
+   h2{ font-size: 22px;}
+    p {
+        font-size: 1em;
+    }
+    header{
+      width: 50%;
+    
+    
+      
+
+    }
+    .nav{
+     margin-inline-start: 20px;
+       font-size: 14px;
+    }
+    .link{
+   
+  
+     margin-left: 5%;
+
+    }
+
+
+  /*  tablet or medium screen8*/
+
+    @media(min-width:641) and (min-width:1007){
+              /*your style here*/
+          h1 {
+            font-size: 30px;
+
+          }
+          p{
+            font-size: 39px;
+          }
+    }
+
+   /* desktop or big screen 
+    all the style that is outside a modle quiry*/
+    html{
+        background-color: var(--background-color);}
+        .Navbar{
+            width: 100%; 
+            display: flex;
+            flex-direction: row;
+            margin-left: 25%;
+            
+      
+          }
+          .link{
+              margin: 20px;
+          }

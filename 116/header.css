@@ -1,0 +1,36 @@
+header {
+    background-color: var(--surface-color);
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+
+    h1 { font-size: 1rem;}
+    h2{ font-size: 2rem;}
+     p {
+         font-size: 1.4em;
+     }
+     .Navbar{
+       width: 100% ;
+    
+     
+       
+ 
+     }
+     .nav{
+      margin-inline-end: 10px;
+          color: aqua;
+    
+     }
+  .link{
+    font-size: 18px;
+  }
+
+   
+ 
+     }
+ 
+
+.link a:hover  {
+    border-bottom: solid 2px var(--primary-color);
+}
